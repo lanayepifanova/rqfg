@@ -1,1 +1,18 @@
+body {
+  background-color: #f0f8ff; /* Light Alice Blue */
+  color: #333; /* Dark gray text */
+}
 
+h1 {
+  color: #007bff; /* Blue heading */
+}
+
+p {
+  color: #555; /* Slightly lighter gray paragraph text */
+}
+
+button {
+  background-color: #28a745; /* Green button */
+  color: white;
+  border: 1px solid #218838; /* Darker green border */
+}

@@ -1,18 +1,142 @@
+/* Resetting default browser styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 body {
-  background-color: #f0f8ff; /* Light Alice Blue */
-  color: #333; /* Dark gray text */
+  line-height: 1;
+  font-family: sans-serif; /* A basic sans-serif font */
 }
 
-h1 {
-  color: #007bff; /* Blue heading */
+ol, ul {
+  list-style: none;
 }
 
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Basic body styling */
+body {
+  background-color: #f4f4f4; /* Light background */
+  color: #333; /* Darker text */
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px; /* Add some padding around the content */
+}
+
+/* Basic header styling */
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Basic navigation styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff; /* Example link color */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Basic main content styling */
+main {
+  max-width: 800px; /* Limit content width for readability */
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* Basic footer styling */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Example paragraph styling */
 p {
-  color: #555; /* Slightly lighter gray paragraph text */
+  margin-bottom: 15px;
 }
 
-button {
-  background-color: #28a745; /* Green button */
-  color: white;
-  border: 1px solid #218838; /* Darker green border */
+/* Example link styling within paragraphs */
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Example image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes extra space below images */
+  margin: 10px auto; /*Centers images*/
+}
+
+/* Example list styling */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
